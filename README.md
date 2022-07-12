@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Application Link : https://shiwani-food-rating.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fuctionality of this application :-
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For Sign In :- 
+a. We need to enter the name in small letter as given by the company.
+   Valid Username and Password:- 
+  1."username": "amar",
+    "password": "amar123"
+   
+  2."username": "akbar",
+    "password": "akbar123"
+    
+  3."username":"antony",
+    "password":"antony123"
+    
+  4."username":"john",
+   "password":"john123"
+    
+  5."username":"paul",
+    "password":"paul123"
+    
+ Then click on "Submit" button to enter.
+ 
+ b. Next Page :- 
+ Here we can see the food cards their. API provided by the company which, I have used here:
+ 
+ (https://raw.githubusercontent.com/syook/react-dishpoll/main/db.json)
+ 
+ On the top of the page we get "Username", Home, Leaderboard, log out.
+1. Home :- When we will click on the home we will see the bottom-right-corner one green button their. So, through that button we go to the next page and here we can see the "Rank 1, Rank 2, Rank 3", and through this dropdown we can give our rating of dishes by clicking on "Poll" button.
+ 
+ 2. Leaderboard :- Through this we can see the ranking of users and also on the top-right-corner of dish card each user can see its own rating. 
+ 3. User can change their vote for dishes by re-ranking.
+ 4. Log out :- Through this we can log out from the app.
+ 
+ 
