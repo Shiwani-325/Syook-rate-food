@@ -1,6 +1,10 @@
 Application Link: https://shiwani-food-rating.netlify.app/
 
+Introduction:- React app for ranking dishes. Multiple users should be able to login into the app and vote for their favourite dishes and see the results of the poll.
+
 The functionality of this application:-
+
+Login Screen: A user should be able to login into the app using a username and password. Since there is no backend to query you can use a static list of users. Refer to users.json for the static list of users to use
 
 For Sign In:-
 A. We need to enter the name in a small letter given by the company.
